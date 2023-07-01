@@ -7,10 +7,11 @@ spring:
   datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/CourierDB
-    username: postgres
-    password: 1234
+    username: ${GIT_USERNAME}
+    password: ${GIT_PASSWORD}
   jpa:
     hibernate:
       ddl-auto: update
+
 
 
