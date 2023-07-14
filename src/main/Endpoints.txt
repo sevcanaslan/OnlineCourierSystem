@@ -1,0 +1,31 @@
+User ile ilgili endpointler:
+
+POST /users: Yeni bir kullanıcı oluştur.
+GET /users: Tüm kullanıcıları listele.
+GET /users/{userId}: Belirli bir kullanıcının bilgilerini getir.
+PUT /users/{userId}: Belirli bir kullanıcının bilgilerini güncelle.
+DELETE /users/{userId}: Belirli bir kullanıcıyı sil.
+
+Order ile ilgili endpointler:
+
+POST /orders: Yeni bir sipariş oluştur.
+GET /orders: Tüm siparişleri listele.
+GET /orders/{orderId}: Belirli bir siparişin detaylarını getir.
+PUT /orders/{orderId}: Belirli bir siparişin detaylarını güncelle.
+DELETE /orders/{orderId}: Belirli bir siparişi sil.
+
+Parcel ile ilgili endpointler:
+
+POST /parcels: Yeni bir parsel oluştur.
+GET /parcels: Tüm parselleri listele.
+GET /parcels/{parcelId}: Belirli bir parselin detaylarını getir.
+PUT /parcels/{parcelId}: Belirli bir parselin detaylarını güncelle.
+DELETE /parcels/{parcelId}: Belirli bir parseli sil.
+
+Payment ile ilgili endpointler:
+
+POST /payments: Yeni bir ödeme oluştur.
+GET /payments: Tüm ödemeleri listele.
+GET /payments/{paymentId}: Belirli bir ödemenin detaylarını getir.
+PUT /payments/{paymentId}: Belirli bir ödemenin detaylarını güncelle.
+DELETE /payments/{paymentId}: Belirli bir ödemeyi sil.
